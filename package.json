@@ -1,0 +1,62 @@
+{
+  "name": "@ahmedrowaihi/bull-board-fetch",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "description": "Fetch adapter for bull-board - works with Node.js 18+ and Bun using web standard fetch API",
+  "keywords": [
+    "bull-board",
+    "bullmq",
+    "fetch",
+    "node",
+    "bun",
+    "adapter"
+  ],
+  "author": "Superstreamer",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmedrowaihi/bull-board-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmedrowaihi/bull-board-fetch/issues"
+  },
+  "homepage": "https://github.com/ahmedrowaihi/bull-board-fetch#readme",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@bull-board/api": "^6.15.0",
+    "ejs": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "bun": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "bun": {
+      "optional": true
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
