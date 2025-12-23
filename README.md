@@ -2,6 +2,9 @@
 
 Fetch adapter for [bull-board](https://github.com/felixmosh/bull-board). Works with Node.js 18+ and Bun using the web standard fetch API without requiring Hono or other frameworks.
 
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/ahmedrowaihi/bull-board-fetch?utm_source=oss&utm_medium=github&utm_campaign=ahmedrowaihi%2Fbull-board-fetch&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
+
+
 ## Installation
 
 ```bash
